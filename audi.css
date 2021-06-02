@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+ul{
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:  hidden;
+    background-color: white;
+}
+
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    background-color: whitesmoke;
+    padding: 25px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    background-color: gray;
+}
+
+button{
+    background-color: white;
+    border: none;
+    border-color: black;
+    border-width: thick;
+    color: black;
+    padding: 25px 52px;
+    text-align: center;
+    text-decoration: none;    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+img{
+    max-width: 100%;
+}
+#main{
+   
+   color:black;
+   
+   height: 100%;
+   font-size: large;
+}
+#main > h1{
+    padding: 100px;
+}
+
+#Models{
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+    border: orangered;
+    border-width: thin;
+
+}
+
+#Future{
+    margin: 10px;
+    padding: 100\px;
+    align-items: center;
+
+}
+
+#Future  img{
+width: 100%;
+
+}
